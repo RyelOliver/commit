@@ -1,0 +1,29 @@
+{
+  "name": "commit",
+  "version": "1.0.0",
+  "description": "Construct formatted commit messages using a set of questions.",
+  "main": "cli.js",
+  "bin": {
+    "commit": "cli.js"
+  },
+  "scripts": {
+    "start": "node index",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "javascript",
+    "git",
+    "emoji"
+  ],
+  "author": "Ryel Oliver <rmuchunku@gmail.com> (https://github.com/RyelOliver)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2"
+  }
+}
